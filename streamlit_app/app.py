@@ -59,7 +59,7 @@ with st.sidebar:
         </style>
     """, unsafe_allow_html=True)
 
-    st.markdown('<div class="sidebar-title">🏠 Shopper Spectrum</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sidebar-title"> Shopper Spectrum</div>', unsafe_allow_html=True)
 
     # Custom buttons with hover and active style
     if st.button("🧠 Clustering", key="cluster_btn"):
